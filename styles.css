@@ -1,0 +1,302 @@
+
+:root{
+  --grin:var(--grin)
+}
+
+*{
+
+margin:0;padding: 0;
+box-sizing:border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none;border:none;
+text-decoration: none;       /* Often used to remove the underline from links*/
+text-transform: capitalize; /* 
+to ensure consistent styling for text titles*/
+transform: .2s liner ;/* to control how quickly or smoothly the change happens. linear: Consistent speed*/
+
+
+
+}
+
+section{
+  padding: 12rem  2% ;
+}
+html{
+
+
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+  scroll-padding-top:6rem;
+  overflow-x: scroll;
+}
+header{
+  position: fixed;
+  top:0; left:0; right:0;
+  padding: 2rem 9%;
+  display: flex;
+  z-index:1000;
+  box-shadow:0 .5rem 1rem #808080;
+justify-content: space-between;
+background-color: white;
+}
+.logo{
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+.navbar a{
+font-size: 1.3rem ;
+color: #454545 ;
+padding: 0 2.5rem  ;
+}
+.navbar a:hover{
+  color: #333;
+}
+.button-navbar{
+
+border-radius: 25px;
+background-color:#D3D3D3 ;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+}
+
+.contact{
+
+  border-radius: 25px;
+background-color:#333 ;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+}
+
+
+
+
+.content {
+  font-size: 13px;
+  width: 100%;
+display: grid;
+background-position: center;
+background-size: cover;
+min-height: 90vh;   /*her space in the page take 100vh */
+background-image: url(../Vegamour_Portfolio_Row1.gif);
+align-items: center;
+border-radius: 50px;
+}
+
+  .products{
+    display:grid;
+    grid-template-columns: auto auto auto auto  ;
+  gap: 20px;
+
+}
+
+
+.row img{
+transition: all .40s;
+  border-radius: 20px;
+  width: 100%;
+height: 390px;
+background-color: white;
+margin-top: 15px;
+
+}
+.row{
+position: relative;
+transition: all .40s;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  border-radius:    25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #D3D3D3;
+}
+.row img:hover{
+
+  transform: scale(0.9);
+}
+.text-row{
+ position: absolute;
+ top:8px;
+ left:14px;
+  font-size:15px ;
+
+}
+.text{
+font-size: 20px;
+margin-top: 150px;
+position: absolute;
+left: 500px;
+top:700px;
+}
+.span{
+  color: #808080;
+}
+
+
+.texth3{
+  position: absolute;
+  left:47px;
+  top:140px;
+  font-size: 28px;
+  color: #D3D3D3;
+}
+.slash{
+  
+  width: 30px;
+  position: absolute;
+border-radius: 10px;
+  left: 280px;
+
+}
+.forevery{
+  color: black;
+}
+
+
+
+.endwebsitimg{
+  width: 100%;
+  background-image: url(the_act-body-scrabs.webp);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 100%;
+  height: 60%;
+  
+
+  }
+  
+  
+.testend{
+color: #474646f5;
+  position: absolute;
+  top:1600px;
+  left: 540px;
+font-size: 17px;
+
+}
+
+
+.bestsellers{
+  font-size: 50px;
+  margin-bottom: 5px;
+  color:black;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.theact{
+
+  background-color: #F0E0D1;
+  
+  border-radius: 50px;
+  
+  }
+  
+  
+  
+  .act{
+  margin-top: 0px;
+  font-size: 100px;
+  word-spacing: 20px;
+  margin-bottom: 19px;
+  }
+  
+  .fonction{
+  
+  font-size: 15px;
+  position:absolute;
+  left:1040px;
+     width: 250px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     background-color:white;
+  border-radius: 50px;
+  cursor: pointer;
+  top:2805px;
+  
+    }
+  
+    .fonction:hover{
+      transition: 0.9s;
+      
+    }
+  
+  .demo{
+    top:2500px;
+  position: absolute;
+  left:1050px;
+  height: 370px;
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media (max-width:991px) {
+  html{
+  
+  font-size:55%;
+  }
+  header{
+    padding:2rem;
+  }
+    
+  }
+  @media(max-width:768px){
+
+.navbar{
+  position: absolute;
+
+top:0;left:0;right:0;
+background-color:white;
+
+
+
+}
+
+
+  }
+  @media(max-width:768px){
+html{
+  font-size: 50%;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
